@@ -4,7 +4,7 @@
 
 
 class Solution:
-    def letterCombinations(self, digits: str) -> List[str]:
+    def letterCombinations(self, digits):
         mapDict = {'2': list('abc'),
                    '3': list('def'),
                    '4': list('ghi'),
